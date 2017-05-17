@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRYSTALS COLLECTOR GAME</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+</head>
+<body class="mainbackground">
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 row jumbotron center jumbobackground">
+			<h1>The Crystals Collector!</h1>
+		</div>
+	</div>
+	<div class="col-md-12 row">
+		<div>
+			<h3>Rules:</h3><br>
+			<ul>You will be given a random number at the start of the game that will become your target.</ul>
+			<ul>By clicking the four crystals below you will add a specific amount to your total score. Each crystal will add a separate amount and that value changes with each game.</ul>
+			<ul>You win the game by matching your total score to the random number.</ul>
+			<ul>Each time the game starts, the game will change the values of each crystal.</ul>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3 crystal c1" id="button1"><img src="assets/images/crystal1.jpg"></div>
+		<div class="col-md-3 crystal c2" id="button2"><img src="assets/images/crystal2.jpg"></div>
+		<div class="col-md-3 crystal c3" id="button3"><img src="assets/images/crystal3.jpg"></div>
+		<div class="col-md-3 crystal c4" id="button4"><img src="assets/images/crystal4.jpg"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3">
+			<h3>Target number: <span id="targetnumber">1</span></h3>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<h3>Wins: <span id="playerWin">1</span></h3><br>
+				<h3>Loses: <span id="playerLose">1</span></h3>
+			</div>
+		</div>
+		<div class="col-md-7">
+			<div>
+				<h3>Current total score: <span id="currentScore">2</span>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>

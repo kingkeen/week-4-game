@@ -1,0 +1,54 @@
+
+.center {
+	text-align: center;
+}
+
+.mainbackground {
+	background-color: grey;
+}
+
+.jumbobackground {
+	background-color: white;
+	color: darkgray;
+}
+
+.crystal {
+	margin: 15px;
+}
+
+.c1 {
+	background-image: url("../images/crystal1.jpg");
+	height: 140px;
+	width: 140px;
+}
+
+.c2 {
+	height: 140px;
+	width: 140px;
+}
+
+.c3 {
+	height: 140px;
+	width: 140px;
+}
+
+.c4 {
+	height: 140px;
+	width: 140px;
+}
+
+img {
+	display: block;
+	max-width: 140px;
+	max-height: 140px;
+	width: auto;
+	height: auto;
+}
+
+h3 {
+	color: white;
+}
+
+ul {
+	color: lightgrey;
+}
